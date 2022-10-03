@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment #3</title>
+    <link href="styles/assigment_3.css" rel="stylesheet" >
+  </head>
+
+  <body>
+    <h1>Eliana's Fancy Photography</h1>
+    <img
+      src="images/AdobeStock_101026418_Preview.jpeg"
+      alt="camera"
+      style="height: 50%; width: 50%"
+    >
+    <p style="font-size: 10px; font-style: italic">
+      Cheap photography for most occassions
+    </p>
+
+    <form>
+      <label for="txtFullName">Full Name</label>
+      <input type="text" id="txtFullName" value="John Smith">
+      <br>
+
+      <label for="txtPhone">Phone Number</label>
+      <input type="text" id="txtPhone" value="(123) 456-7890" >
+      <br>
+
+      <label for="txtEvent">Pick evnet </label>
+
+      <select name="desiredEvent" id="txtEvent">
+        <option value="wedding">Wedding</option>
+        <option value="anniversary">Anniversary</option>
+        <option value="baptism">Baptism</option>
+        <option value="babyShowe">Baby Shower</option>
+        <option value="bridalShowe">Bridal Shower</option>
+      </select>
+      <br>
+
+      <br>
+      How would you like us to get you your images?
+      <br>
+
+      <input
+        type="radio"
+        id="radFormatOne"
+        name="format"
+        value="formatValues"
+      >
+      <label for="radFormatOne">I would like hard copies of photographs</label>
+      <br>
+
+      <input
+        type="radio"
+        id="radFormatTwo"
+        name="format"
+        value="formatValues"
+      >
+      <label for="radFormatTwo">I would like copies on CD/USB </label>
+      <br>
+
+      <input
+        type="radio"
+        id="radFormatThree"
+        name="format"
+        value="formatValues"
+      >
+      <label for="radFormatThree">I would like copies on CD/USB </label>
+      <br>
+
+      <input
+        type="radio"
+        id="radFormatFour"
+        name="format"
+        value="formatValues"
+      >
+      <label for="radFormatFour">I would like to download from the cloud</label>
+      <br>
+
+      <br>
+      Would you also like hard copies of your photographs?
+      <br>
+
+      <input type="radio" id="radCopiesYes" name="format" value="yes">
+      <label for="radCopiesYes">yes</label>
+      <input type="radio" id="radCopiesNo" name="format" value="no">
+      <label for="radCopiesNo">no</label>
+      <br>
+
+      <br>
+      <label for="txtarSpecialReq">Special Requests:</label>
+      <br>
+
+      <textarea id="txtarSpecialReq" name="speacialReq">
+        Special Requests
+      </textarea>
+      <br>
+
+      <button type="button" class="btnSubmitInfo">Submit my Information</button>
+
+    </form>
+  </body>
+</html>

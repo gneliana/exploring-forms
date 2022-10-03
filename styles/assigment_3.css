@@ -1,0 +1,8 @@
+body {
+    width: 420px;
+}
+
+h1 {
+    border: 3px dashed #000ff0;
+    text-align: center;
+}
